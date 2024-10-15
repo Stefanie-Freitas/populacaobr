@@ -94,6 +94,8 @@ print(densidade)
 (4500, 6000]    0.089
 (0, 1500]       0.055
 Name: Faixa_Renda, dtype: float64
+
+
 5. Calcule a média e a variância da renda da amostra. Depois faça a distribuição normal, inclua o gráfico
 
 [ ]
@@ -108,6 +110,9 @@ print (variancia)
 # Para o gráfico
 import seaborn as sns
 sns.histplot(brasileiros['renda'], kde=True)
+
+![image](https://github.com/user-attachments/assets/e193cb3f-618d-484d-95bd-d8c9dbcfc1ec)
+
 
 
 6. Primeiro considere a probabilidade encontrada no nosso conjunto de pessoas com escolaridade de pós-graduação. Considerando a amostra de população brasileira com 1 milhão de habitantes, qual a probabilidade de encontrarmos 243 mil pessoas com pós-graduação?
